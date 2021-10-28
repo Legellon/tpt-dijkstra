@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+    <points>
+        <point id='1' x='1' y='1'/>
+        <point id='2' x='1' y='1'/>
+        <point id='3' x='1' y='1'/>
+        <point id='4' x='1' y='1'/>
+        <point id='5' x='1' y='1'/>
+        <point id='6' x='1' y='1'/>
+        <point id='7' x='1' y='1'/>
+        <point id='8' x='1' y='1'/>
+        <point id='9' x='1' y='1'/>
+        <point id='10' x='1' y='1'/>
+    </points>
+    <routes>
+        <route from="1" to="2" vmax="1"/>
+        <route from="1" to="3" vmax="1"/>
+        <route from="2" to="3" vmax="1"/>
+        <route from="2" to="5" vmax="1"/>
+        <route from="3" to="1" vmax="1"/>
+        <route from="3" to="4" vmax="1"/>
+        <route from="3" to="2" vmax="1"/>
+        <route from="4" to="1" vmax="1"/>
+        <route from="5" to="4" vmax="1"/>
+        <route from="5" to="3" vmax="1"/>
+        <route from="5" to="6" vmax="1"/>
+        <route from="6" to="7" vmax="1"/>
+        <route from="6" to="9" vmax="1"/>
+        <route from="6" to="10" vmax="1"/>
+        <route from="7" to="8" vmax="1"/>
+        <route from="8" to="9" vmax="1"/>
+        <route from="9" to="6" vmax="1"/>
+        <route from="10" to="9" vmax="1"/>
+    </routes>
+</map>

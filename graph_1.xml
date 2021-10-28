@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+    <points>
+        <point name="base" id="1" x="50" y="50"/>
+        <point name="PD" id="2" x="100" y="75"/>
+        <point name="shop" id="3" x="60" y="25"/>
+        <point name="bank" id="4" x="25" y="30"/>
+        <point name="lab" id="5" x="-5" y="33"/>
+        <point name="armory" id="6" x="45" y="60"/>
+        <point name="tower3" id="7" x="110" y="100"/>
+        <point name="timen" id="8" x="100" y="225"/>
+        <point name="prison" id="9" x="170" y="110"/>
+        <point name="tower2" id="10" x="190" y="80"/>
+        <point name="bar" id="11" x="130" y="20"/>
+        <point name="park" id="12" x="95" y="17"/>
+        <point name="gym" id="13" x="130" y="1"/>
+        <point name="library" id="14" x="80" y="-10"/>
+        <point name="school" id="15" x="40" y="-5"/>
+        <point name="universitet" id="16" x="-4" y="30"/>
+    </points>
+    <routes>
+        <route from="1" to="2" vmax="60"/>
+        <route from="1" to="4" vmax="60"/>
+        <route from="1" to="5" vmax="80"/>
+        <route from="1" to="6" vmax="40"/>
+        <route from="2" to="1" vmax="60"/>
+        <route from="2" to="12" vmax="60"/>
+        <route from="2" to="10" vmax="100"/>
+        <route from="3" to="4" vmax="60"/>
+        <route from="3" to="1" vmax="60"/>
+        <route from="3" to="14" vmax="60"/>
+        <route from="3" to="15" vmax="60"/>
+        <route from="3" to="12" vmax="40"/>
+        <route from="4" to="1" vmax="60"/>
+        <route from="4" to="3" vmax="60"/>
+        <route from="5" to="6" vmax="100"/>
+        <route from="5" to="1" vmax="80"/>
+        <route from="6" to="7" vmax="100"/>
+        <route from="6" to="5" vmax="100"/>
+        <route from="6" to="1" vmax="40"/>
+        <route from="7" to="8" vmax="200"/>
+        <route from="7" to="9" vmax="100"/>
+        <route from="7" to="2" vmax="80"/>
+        <route from="8" to="7" vmax="120"/>
+        <route from="8" to="6" vmax="200"/>
+        <route from="9" to="8" vmax="120"/>
+        <route from="9" to="10" vmax="120"/>
+        <route from="10" to="7" vmax="200"/>
+        <route from="10" to="13" vmax="100"/>
+        <route from="10" to="2" vmax="80"/>
+        <route from="11" to="10" vmax="80"/>
+        <route from="11" to="12" vmax="40"/>
+        <route from="12" to="2" vmax="60"/>
+        <route from="12" to="11" vmax="40"/>
+        <route from="12" to="14" vmax="40"/>
+        <route from="12" to="13" vmax="40"/>
+        <route from="12" to="3" vmax="40"/>
+        <route from="12" to="14" vmax="40"/>
+        <route from="13" to="10" vmax="100"/>
+        <route from="13" to="14" vmax="80"/>
+        <route from="13" to="12" vmax="40"/>
+        <route from="14" to="12" vmax="40"/>
+        <route from="14" to="15" vmax="80"/>
+        <route from="15" to="3" vmax="60"/>
+        <route from="15" to="14" vmax="80"/>
+        <route from="15" to="16" vmax="100"/>
+        <route from="16" to="15" vmax="100"/>
+        <route from="16" to="4" vmax="60"/>
+        <route from="16" to="5" vmax="100"/>
+    </routes>
+</map>
